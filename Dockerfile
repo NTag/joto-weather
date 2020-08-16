@@ -15,4 +15,4 @@ COPY . /usr/src/app
 RUN cd app && npm run build && cd ../
 
 EXPOSE 3100
-CMD ["npm", "start"]
+CMD ["node", "."]
