@@ -1,0 +1,35 @@
+{
+  "name": "joto-weather",
+  "version": "1.0.0",
+  "description": "Generate weather SVGs for joto.rocks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch drawings --watch index.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTag/joto-weather.git"
+  },
+  "keywords": [
+    "joto",
+    "svg",
+    "weather"
+  ],
+  "author": "Basile Bruneau <basilebruneau@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NTag/joto-weather/issues"
+  },
+  "homepage": "https://github.com/NTag/joto-weather#readme",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "express": "^4.17.1",
+    "joto-svg": "^1.0.2",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
