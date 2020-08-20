@@ -4,6 +4,12 @@ import moment from 'moment';
 
 const tomorrow = moment().add(1, 'day').format('YYYY-MM-DD');
 
+const GithubLink = ({ children, ...props }) => (
+  <a href="https://github.com/NTag/joto-weather" target="_blank" {...props}>
+    {children}
+  </a>
+);
+
 const App = () => {
   const [city, setCity] = useState('Paris');
   const [date, setDate] = useState(tomorrow);
@@ -30,6 +36,9 @@ const App = () => {
                 </a>
                 .
               </Heading>
+              <Button renderAs={GithubLink} size="small">
+                Code on Github »
+              </Button>
             </Container>
           </Hero.Body>
         </Hero>
