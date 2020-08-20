@@ -1,6 +1,6 @@
 # joto.weather: https://joto.ntag.fr
 
-Generate images around weather for you https://joto.rocks.
+Generate images around weather for you https://joto.rocks. Uses [joto-svg](https://github.com/NTag/joto-svg) underneath.
 
 ## Installation
 
